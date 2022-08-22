@@ -1,0 +1,87 @@
+.student {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 1em;
+}
+
+.student th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.student tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.student tr:hover {
+  background-color: #ddd;
+}
+
+.student th {
+  margin-top: 25em;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4caf50;
+  color: white;
+}
+.link {
+  text-align: center;
+}
+.delete {
+  cursor: pointer;
+  color: red;
+  background-color: white;
+}
+.type {
+  /* display: inline-flex; */
+  background-color: #f2f2f2;
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.edit {
+  text-align: center;
+  color: brown;
+}
+.Edit {
+  background-color: white;
+  cursor: pointer;
+}
+.name {
+  /* display: inline-flex; */
+  background-color: #f2f2f2;
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 9.5%;
+}
+.matric {
+  background-color: #f2f2f2;
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 16%;
+}
+.school {
+  background-color: #f2f2f2;
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 19.2%;
+}
+.level {
+  background-color: #f2f2f2;
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 7.8%;
+}
+.editPromoStudent {
+  display: flex;
+  justify-content: space-between;
+}
+/* .promotStudent {
+  position: absolute;
+} */

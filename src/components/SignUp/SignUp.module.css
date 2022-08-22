@@ -1,0 +1,30 @@
+.root {
+  padding: 0px 50px;
+  display: block;
+  text-align: center;
+}
+
+.inpute {
+  width: 50%;
+  height: 50px;
+  outline: black;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.button {
+  width: 50%;
+  height: 50px;
+  background-color: cadetblue;
+  color: white;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 1.5em;
+}
+.button:hover {
+  background-color: black;
+}
+.login {
+  padding-bottom: 2em;
+}

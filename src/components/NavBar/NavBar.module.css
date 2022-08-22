@@ -1,0 +1,79 @@
+.addStudent {
+  color: red;
+}
+.firstPage {
+  font-size: 20px;
+  display: flex;
+  padding-left: 1.5em;
+  text-align: center;
+}
+.pars {
+  margin-left: 5em;
+  /* margin-right: 1em; */
+}
+.navs {
+  padding-left: 2em;
+  padding-right: 2em;
+  text-decoration: none;
+  padding-top: 1.3em;
+}
+.department {
+  text-decoration: none;
+  padding-top: 1.3em;
+  margin-left: 1em;
+}
+.button {
+  background-color: yellowgreen;
+  margin-top: 2em;
+  /* margin-right: 2em; */
+  border-radius: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: none;
+  margin-left: 24em;
+}
+.images {
+  margin-top: 0.7em;
+}
+.par {
+  text-decoration: none;
+  margin-left: 15em;
+  /* margin-right: 3em; */
+}
+.par:hover {
+  /* padding-left: 1em;
+  padding-right: 1em; */
+  text-decoration: underline;
+}
+.pars:hover {
+  background-color: brown;
+  color: white;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.nav {
+  text-align: center;
+  background-color: #f5f5f5;
+  margin-top: 1em;
+  padding-top: 1.5em;
+  padding-bottom: 0.5em;
+}
+.navs:hover {
+  text-decoration: underline;
+}
+.department:hover {
+  text-decoration: underline;
+}
+/* .list {
+  text-decoration: none;
+  cursor: pointer;
+  margin-left: 2em;
+} */
+.list:hover {
+  text-decoration: underline;
+}
+.nav_page {
+  text-align: center;
+}

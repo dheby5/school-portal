@@ -1,0 +1,73 @@
+.root {
+  padding: 0px 50px;
+  display: block;
+  text-align: center;
+}
+
+.inpute {
+  width: 50%;
+  height: 50px;
+  outline: black;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  width: 50%;
+  height: 50px;
+  background-color: brown;
+  color: whitesmoke;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 0em;
+  margin-bottom: 3em;
+}
+.button:hover {
+  background-color: black;
+}
+.option {
+  width: 50.2%;
+  height: 4em;
+  background-color: whitesmoke;
+  color: gray;
+}
+.button {
+  /* display: inline-block; */
+  border-radius: 6px;
+  background-color: #4ba139;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 16px;
+  padding: 2px;
+  width: 15%;
+  cursor: pointer;
+  margin: 10px;
+  height: 3em;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}

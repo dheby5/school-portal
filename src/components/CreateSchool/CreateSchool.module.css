@@ -1,0 +1,38 @@
+.root {
+  padding: 0px 50px;
+  display: block;
+  text-align: center;
+}
+
+.input {
+  width: 50%;
+  height: 50px;
+  outline: black;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.button {
+  width: 50%;
+  height: 50px;
+  background-color: cadetblue;
+  color: white;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  margin-bottom: 1.5em;
+}
+.button:hover {
+  background-color: black;
+}
+.nav {
+  text-align: center;
+  background-color: cadetblue;
+  color: white;
+  width: 100%;
+}
+.create {
+  margin-bottom: 5em;
+}

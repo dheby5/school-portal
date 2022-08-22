@@ -1,0 +1,29 @@
+/* .myProfile {
+  text-align: center;
+} */
+.studentProfile {
+  display: flex;
+}
+.profile {
+  width: 70%;
+  margin-left: 1.5em;
+}
+.option {
+  text-align: center;
+}
+.task {
+  color: brown;
+}
+.myProfile {
+  color: #636060;
+}
+.par {
+  color: rgb(180, 29, 29);
+}
+.changeCourse {
+  text-align: center;
+}
+/* .select {
+  display: flex;
+  text-align: center;
+} */
