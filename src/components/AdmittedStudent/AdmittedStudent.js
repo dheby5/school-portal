@@ -85,7 +85,7 @@ const AdmittedStudent = () => {
         </div>
       </div>
       <div className={styles.option}>
-        <p className={styles.par}>select you course to offer</p>
+        <p className={styles.par}>select your course to offer</p>
         <div className={styles.select}>
           <form onSubmit={handleSelect} defaultValue={"Select your course"}>
             <button type="submit">select</button>
