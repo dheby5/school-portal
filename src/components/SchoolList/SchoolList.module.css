@@ -85,3 +85,57 @@
 /* .promotStudent {
   position: absolute;
 } */
+.button {
+  /* display: inline-block; */
+  border-radius: 3px;
+  background-color: #4ba139;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 16px;
+  /* padding: 2px; */
+  /* width: 15%; */
+  cursor: pointer;
+  /* margin: 10px; */
+  margin-left: 30em;
+  height: 1.5em;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  font-size: 12px;
+}
+
+.button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.promotStudent {
+  margin-top: 1em;
+  display: flex;
+}
+.promingStudents {
+  align-items: center;
+  width: 50%;
+}
+.btu {
+  margin-left: 0.5em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}

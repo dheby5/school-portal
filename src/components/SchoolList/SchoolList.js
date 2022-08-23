@@ -35,12 +35,20 @@ function StudentsList() {
   return (
     <div className={styles.root}>
       <div className={styles.promotStudent}>
-        <div>
-          <div className={styles.editPromoStudent}>
+        <div className={styles.promingStudents}>
+          <button onClick={handlePromotoStudent} className={styles.btu}>
+            Promote Student
+          </button>
+
+          {/* <div className={styles.editPromoStudent}>
             <h2 className={styles.edit}>Edit Student</h2>
-          </div>
-          <button onClick={handlePromotoStudent}>Promote Student</button>
+          </div> */}
         </div>
+        <Link to="/create-student">
+          <button type="submit" className={styles.button}>
+            <span>Create Students</span>
+          </button>
+        </Link>
       </div>
       <table className={styles.student}>
         <tr>

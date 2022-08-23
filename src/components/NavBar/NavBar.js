@@ -14,7 +14,7 @@ function NavBar() {
   };
 
   return (
-    <div className="header">
+    <div className={styles.header}>
       <div className={styles.firstPage}>
         {currentUser !== null ? (
           <>
@@ -22,17 +22,19 @@ function NavBar() {
               <img src={MyImage} alt="images" className={styles.images} />
             </Link>
             <div className={styles.nav_page}>
-              <Link to="/create-student" className={styles.navs}>
-                Student
+              <Link to="/school-list" className={styles.navs}>
+                Students
               </Link>
               <Link to="/department-list" className={styles.department}>
                 Department
               </Link>
-              <Link to="/school-list" className={styles.par} type="submit">
+              {/* <Link to="/school-list" className={styles.par} type="submit">
                 list of student
+              </Link> */}
+              <Link to="/studentProfile" className={styles.profile}>
+                Profile
               </Link>
-              <Link to="/studentProfile">Student Profile</Link>
-              <button className={styles.button} onClick={logout}>
+              <button className={styles.buttons} onClick={logout}>
                 Logout
               </button>
             </div>
@@ -53,10 +55,10 @@ function NavBar() {
         )}
       </div>
 
-      <div className={styles.nav}>
+      {/* <div className={styles.nav}>
         <h1 className>School Management Student Portal</h1>
         <h3 className={styles.schoolManagement}>User Story</h3>
-      </div>
+      </div> */}
     </div>
   );
 }

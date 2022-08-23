@@ -1,3 +1,9 @@
+.header {
+  margin-bottom: 2em;
+  background-color: #f1f1f1;
+  padding-bottom: 2em;
+}
+
 .addStudent {
   color: red;
 }
@@ -5,7 +11,7 @@
   font-size: 20px;
   display: flex;
   padding-left: 1.5em;
-  text-align: center;
+  /* padding-right: 3em; */
 }
 .pars {
   margin-left: 5em;
@@ -32,7 +38,7 @@
   padding-top: 5px;
   padding-bottom: 5px;
   border: none;
-  margin-left: 24em;
+  margin-left: 40em;
 }
 .images {
   margin-top: 0.7em;
@@ -76,4 +82,20 @@
 }
 .nav_page {
   text-align: center;
+}
+.profile {
+  text-decoration: none;
+  margin-left: 4em;
+}
+.buttons {
+  background-color: white;
+  margin-top: 2em;
+  /* margin-right: 2em; */
+  border-radius: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: none;
+  margin-left: 40em;
 }
