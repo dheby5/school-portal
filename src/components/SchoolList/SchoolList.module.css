@@ -139,3 +139,9 @@
   padding-left: 0.5em;
   padding-right: 0.5em;
 }
+.studentProfile {
+  text-decoration: none;
+  color: black;
+  /* padding-top: 5em;
+  padding-bottom: 5em; */
+}

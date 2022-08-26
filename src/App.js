@@ -15,6 +15,7 @@ import MyDept from "./components/MyDept/MyDept";
 import NavBar from "./components/NavBar/NavBar";
 import SchoolList from "./components/SchoolList/SchoolList";
 import SignUp from "./components/SignUp/SignUp";
+import StudentData from "./components/StudentData/StudentData";
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
             <Route path="/list-of-courses" element={<List_of_courses />} />
             <Route path="/my-dept/:deptId" element={<MyDept />} />
             <Route path="/studentProfile" element={<AdmittedStudent />} />
+            <Route path="/Student-data/:profileId" element={<StudentData />} />
           </Routes>
         </Router>
       </div>

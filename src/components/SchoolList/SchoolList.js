@@ -1,12 +1,21 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import styles from "./SchoolList.module.css";
 
 function StudentsList() {
   let students = JSON.parse(localStorage.getItem("students"));
   let finalYearStudent = JSON.parse(localStorage.getItem("Alumnina"));
 
+  const { studentsId } = useParams();
+  // console.log(studentsId);
+  // console.log(id);
+
+  const handleNavigate = (id) => {
+    let studentsInput = students.find((d) => d.id === id);
+    console.log(studentsInput);
+  };
   const [studentsInfo, setStudentsInfo] = useState(students);
+
   const onDelete = (matric) => {
     let otherSchools = students.filter((stu, i) => i !== matric);
     setStudentsInfo(otherSchools);
@@ -31,6 +40,15 @@ function StudentsList() {
     setStudentsInfo(newUsers);
     localStorage.setItem("students", JSON.stringify(newUsers));
   };
+  //  const handleNavigateStudent = () => {
+  //   let studentIndex = students.findIndex(
+  //     (sch) => sch.id === currentUser.id
+  //   );
+
+  //   students[studentIndex] = {
+  //     ...admin,
+  //     CoursesToOffer: selected,
+  //   };
 
   return (
     <div className={styles.root}>
@@ -68,7 +86,12 @@ function StudentsList() {
         {studentsInfo.map((stu, index) => (
           <tr key={index}>
             <td>{index + 1}</td>
-            <td>{stu.firstName}</td>
+            <Link
+              to={`/Student-data/${stu.id}`}
+              className={styles.studentProfile}
+            >
+              <td onClick={() => handleNavigate(stu.id)}>{stu.firstName}</td>
+            </Link>
             <td>{stu.lastName}</td>
             <td>{stu.email}</td>
             <td>{stu.school}</td>
@@ -97,6 +120,7 @@ function StudentsList() {
       </table>
       <br />
       <br />
+      {/* <h1>{studentsIn.firstName}</h1> */}
     </div>
   );
 }
