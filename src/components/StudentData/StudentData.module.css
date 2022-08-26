@@ -1,0 +1,33 @@
+.studentProfile {
+  text-decoration: none;
+}
+
+.color {
+  color: purple;
+}
+.avater {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin: auto;
+  background-color: whitesmoke;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.auto {
+  /* border: 1px solid gray; */
+  width: 40%;
+  margin: auto;
+  padding-left: 2em;
+  padding-right: 2em;
+  box-shadow: 7px 7px 7px 3px black;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+.myIcon {
+  color: black;
+  margin-right: 1em;
+}

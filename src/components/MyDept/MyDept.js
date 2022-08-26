@@ -3,7 +3,6 @@ import { useParams } from "react-router-dom";
 import styles from "./MyDept.module.css";
 
 const MyDept = () => {
-  // const [departmentList, setDepartmentList] = useState();
   const { deptId } = useParams();
 
   let dept = JSON.parse(localStorage.getItem("department"));
